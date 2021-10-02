@@ -1,5 +1,13 @@
+#package managers
 /vendor/
 node_modules/
+
+#ide configurations
+/.vagrant
+/.idea
+/.vscode
+
+#package manager logs
 npm-debug.log
 yarn-error.log
 
@@ -15,9 +23,19 @@ public/hot
 public_html/storage
 public_html/hot
 
-storage/*.key
-.env
+#homnsted
 Homestead.yaml
 Homestead.json
-/.vagrant
+
+#env files
+.env.backup
+.env
+
+#docker files
+docker-compose.override.yml
+
+#php testing
 .phpunit.result.cache
+
+#others
+storage/*.key
