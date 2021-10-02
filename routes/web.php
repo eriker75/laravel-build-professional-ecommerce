@@ -2,15 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
+/* 6 Types of Routes methods
+    GET     Obtain data
+    POST    Insert data in the database
+    PUT     Update data in database
+    DELETE  Delete data from database
+    PATCH   Updata a single field in the database
+    OPTIONS Updata a single field in the database
 */
 
 Route::get('/', function () {

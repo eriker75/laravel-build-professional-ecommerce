@@ -1,0 +1,4 @@
+php artisan make:controller HomeController
+php artisan make:middleware CheckAge
+php artisan migrate
+php artisan make:model
